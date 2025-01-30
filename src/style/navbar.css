@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: blueviolet;
+  padding: 10px;
+}
+.nav-item {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+.active {
+  color: black;
+}
