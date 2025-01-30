@@ -1,0 +1,14 @@
+.books {
+  background-color: blueviolet;
+  width: 300px;
+  align-items: center;
+  text-align: left;
+  font-size: 1.3rem;
+}
+.books > img {
+  width: 150px;
+  text-align: center;
+}
+h1 {
+  color: white;
+}

@@ -5,6 +5,7 @@ import Books from "./Pages/Books";
 import Login from "./Pages/Login";
 import Navbar from "./Component/Navbar";
 import PrivateRoute from "./Component/PrivateRoute";
+import BookDetails from "./Pages/BookDetails";
 
 const App = () => {
   return (
@@ -17,6 +18,14 @@ const App = () => {
           element={
             <PrivateRoute>
               <Books />
+            </PrivateRoute>
+          }
+        ></Route>
+        <Route
+          path="/BookDetails"
+          element={
+            <PrivateRoute>
+              <BookDetails />
             </PrivateRoute>
           }
         ></Route>
