@@ -32,7 +32,7 @@ const ViewBook = () => {
     <div>
       {loading && <h1>Loading....</h1>}
       {error && <h1>{error}</h1>}
-      <img src={Books.coverImage} alt={Books.name}></img>
+
       <h1>{Books.name}</h1>
       <h3>{Books.category}</h3>
 
