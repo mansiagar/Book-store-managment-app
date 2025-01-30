@@ -1,0 +1,1 @@
+.nav{display:flex;justify-content:center;gap:20px;background-color:#8a2be2;padding:10px}.nav-item{font-size:1.5rem;color:#fff;text-decoration:none;letter-spacing:1.5px}.active{color:#000}.books{background-color:#8a2be2;width:300px;align-items:center;text-align:left;font-size:1.3rem}.books>img{width:150px;text-align:center}h1{color:#fff}
